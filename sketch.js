@@ -77,7 +77,7 @@ function setup() {
   button = createImg('cut_btn.png');
   button.position(200,320);
   button.size(50,50);
-  button2.mouseClicked(remove_rope);
+  button.mouseClicked(remove_rope);
 
   button2 = createImg('cut_btn.png');
   button2.position(30,420);
